@@ -4,6 +4,9 @@ metadata:
   {{- .Values.metadata | toYaml | nindent 2 }}
 spec:
   displayName: {{ .Values.spec.displayName }}
+  ignoreDoguHealth: {{ .Values.spec.ignoreDoguHealth }}
+  stopped: {{ .Values.spec.stopped }}
+  allowDoguNamespaceSwitch: {{ .Values.spec.allowDoguNamespaceSwitch }}
   blueprint:
     {{- with $config := .Values.spec.blueprint.config }}
     config:

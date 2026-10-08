@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v1.3.0] - 2026-10-08
+### Added
+
+- [#14] Add the missing flag to the chart template
+
 ## [v1.2.2] - 2026-06-30
 ### Fixed
 - [#11] Fix `null` usage to allow removing config entries
