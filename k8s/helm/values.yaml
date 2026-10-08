@@ -4,6 +4,9 @@ metadata:
     app.kubernetes.io/name: blueprint
 spec:
   displayName: "Blueprint (core)"
+  ignoreDoguHealth: false
+  stopped: false
+  allowDoguNamespaceSwitch: false
   blueprint:
     dogus:
       hallowelt/bluespice:
